@@ -1,0 +1,17 @@
+<form>
+    <div>
+        <p>Day</p>
+        <input type="number" step="1" min="1" max="31" placeholder="DD">
+        <p></p>
+    </div>
+    <div>
+        <p>Month</p>
+        <input type="number" step="1" min="1" max="12" placeholder="MM">
+        <p></p>
+    </div>
+    <div>
+        <p>Year</p>
+        <input type="number" step="1" min="1880" [max]="limitYear" placeholder="YYYY">
+        <p></p>
+    </div>
+</form>
